@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import { Dropdown, Row } from "react-bootstrap";
+import Gallery1 from "./Gallery1";
+import Gallery2 from "./Gallery2";
+import Gallery3 from "./Gallery3";
 
 function MyMain () {
     return (
@@ -31,72 +34,12 @@ function MyMain () {
                 </div>
             </div>
 
-            <h4 className="text-start">Trending Now</h4>
-            <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center">
-                <div className="col mb-2 px-1">
-                <img className="img-fluid" src="assets/1.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/2.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/3.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/4.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/5.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/6.png" alt="movie picture" />
-                </div>
-            </Row>
+            <Gallery1 />
 
-            <h4 className="text-start">Watch it Again</h4>
-            <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center">
-                <div className="col mb-2 px-1">
-                <img className="img-fluid" src="assets/7.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/8.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/9.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/10.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/11.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/12.png" alt="movie picture" />
-                </div>
-            </Row>
+            <Gallery2 />
 
-            <h4 className="text-start">New Releases</h4>
-            <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center">
-                <div className="col mb-2 px-1">
-                <img className="img-fluid" src="assets/13.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/14.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/15.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/16.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/17.png" alt="movie picture" />
-                </div>
-                <div className="col mb-2 px-1">
-                    <img className="img-fluid" src="assets/18.png" alt="movie picture" />
-                </div>
-            </Row>
-            
+            <Gallery3 />
+
         </Container>
     )
 }
